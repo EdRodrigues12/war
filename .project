@@ -3,8 +3,139 @@
 	<name>ROOT</name>
 	<comment></comment>
 	<projects>
+		<project>jackson-core-2.1.4</project>
+		<project>asm</project>
+		<project>batik-bridge</project>
+		<project>javassist-3.4.GA</project>
+		<project>png-encoder-1.5</project>
+		<project>bsh-2.1b5</project>
+		<project>commons-io-2.5</project>
+		<project>ehcache-1.1</project>
+		<project>velocity-1.7-dep</project>
+		<project>jasperreports-chart-themes-5.6.0</project>
+		<project>commons-pool-1.6</project>
+		<project>hibernate-commons-annotations</project>
+		<project>commons-pool-1.3</project>
+		<project>batik-ext</project>
+		<project>hibernate3</project>
+		<project>batik-svg-dom</project>
+		<project>olap4j-0.9.7.309-JS</project>
+		<project>js_saaj-api-1.3</project>
+		<project>commons-io-2.5-javadoc</project>
+		<project>js_wsdl4j-1.5.1</project>
+		<project>mondrian-3.2.0-13661-JS</project>
+		<project>commons-logging-1.1</project>
+		<project>hadoop-core-1.0.1</project>
+		<project>iTextAsian</project>
+		<project>mysql-connector-java-5.1.37-bin</project>
+		<project>jackson-databind-2.1.4</project>
+		<project>js_axis-1.4patched</project>
+		<project>bcel-5.2</project>
+		<project>batik-css</project>
+		<project>castor-1.2</project>
+		<project>hibernate-annotations</project>
+		<project>barcode4j-2.1</project>
+		<project>jasperreports-extensions-3.5.3</project>
+		<project>spring</project>
+		<project>taglibs-standard-jstlel-1.2.1</project>
+		<project>jta</project>
+		<project>cglib-2.1</project>
+		<project>taglibs-standard-spec-1.2.1</project>
+		<project>log4j-1.2.15</project>
+		<project>swingx-2007_10_07</project>
+		<project>barbecue-1.5-beta1</project>
+		<project>ant-1.7.1</project>
+		<project>js_commons-httpclient-3.1</project>
+		<project>poi-3.7-20101029</project>
+		<project>js_commons-codec-1.3</project>
+		<project>commons-collections-3.2.1</project>
+		<project>batik-awt-util</project>
+		<project>hive-jdbc-0.8.1</project>
+		<project>jfreechart-1.0.12</project>
+		<project>xbean</project>
+		<project>batik-transcoder</project>
+		<project>javacup</project>
+		<project>eigenbase-properties-1.1.0.10924</project>
+		<project>ejb3-persistence</project>
+		<project>xml-apis-ext</project>
+		<project>batik-script</project>
+		<project>batik-svggen</project>
+		<project>taglibs-standard-impl-1.2.1</project>
+		<project>dom4j-1.6</project>
+		<project>jaxen-1.1.1</project>
+		<project>rhino-1.7R3</project>
+		<project>batik-gvt</project>
+		<project>commons-beanutils-1.8.2</project>
+		<project>commons-digester-2.1</project>
+		<project>jasperreports-htmlcomponent-5.0.1</project>
+		<project>commons-math-1.0</project>
+		<project>jcommon-1.0.15</project>
+		<project>primefaces-5.3</project>
+		<project>poi-ooxml-3.7-20101029</project>
+		<project>jpa</project>
+		<project>js_mail-1.4</project>
+		<project>jasperreports-json</project>
+		<project>slf4j-log4j12-1.5.8</project>
+		<project>saaj-api-1.3</project>
+		<project>rex-0.8.1</project>
+		<project>taglibs-standard-compat-1.2.1</project>
+		<project>jasperreports-jtidy-r938</project>
+		<project>serializer</project>
+		<project>js_jaxrpc</project>
+		<project>hive-exec-0.8.1</project>
+		<project>xalan</project>
+		<project>eigenbase-xom-1.3.0.11999</project>
+		<project>joda-time-2.1</project>
+		<project>asm-attrs</project>
+		<project>hive-common-0.8.1</project>
+		<project>commons-vfs-1.0</project>
+		<project>eigenbase-resgen-1.3.0.11873</project>
+		<project>js_jasperserver-common-ws-4.7.1</project>
+		<project>cincom-jr-xmla</project>
+		<project>libfb303-0.7.0</project>
+		<project>batik-util</project>
+		<project>rex-20080421</project>
+		<project>js-mongodb-datasource-1.0.0a</project>
+		<project>mongo-java-driver-2.7.3</project>
+		<project>javax.faces-2.2.10</project>
+		<project>jasperreports-5.6.0</project>
+		<project>batik-dom</project>
+		<project>xml-apis</project>
+		<project>jdt-compiler-3.1.1</project>
+		<project>sqleonardo-2009.03.rc1</project>
+		<project>jtds-1.3.1</project>
+		<project>jxl-2.6.10</project>
+		<project>batik-parser</project>
+		<project>commons-dbcp-1.2.2</project>
+		<project>slf4j-api-1.5.8</project>
+		<project>libthrift-0.9.0-snapshot</project>
+		<project>poi-ooxml-schemas-3.7-20101029</project>
+		<project>groovy-all-2.0.1</project>
+		<project>commons-javaflow-20060411</project>
+		<project>jackson-annotations-2.1.4</project>
+		<project>js_commons-discovery-0.2</project>
+		<project>servlet-api-2.4</project>
+		<project>jasperreports-fonts-5.6.0</project>
+		<project>hsqldb-1.8.0-10</project>
+		<project>hive-metastore-0.8.1</project>
+		<project>jasperreports-core-renderer</project>
+		<project>jasperreports-htmlcomponent-4.7.1</project>
+		<project>js_activation-1.1</project>
+		<project>js-hive-datasource-1.0.4</project>
+		<project>batik-anim</project>
+		<project>antlr-2.7.6</project>
+		<project>batik-xml</project>
+		<project>commons-fileupload-1.3-sources</project>
+		<project>iText-2.1.7.js2</project>
+		<project>hive-service-0.8.1</project>
+		<project>jasperreports-functions-5.6.0</project>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.jsdt.core.javascriptValidator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
@@ -26,5 +157,6 @@
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
 </projectDescription>

@@ -3,6 +3,384 @@
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="jackson-core-2.1.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-core-2.1.4/jackson-core-2.1.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="asm.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/asm/asm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-bridge.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-bridge/batik-bridge">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.4.GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javassist-3.4.GA/javassist-3.4.GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="png-encoder-1.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/png-encoder-1.5/png-encoder-1.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bsh-2.1b5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/bsh-2.1b5/bsh-2.1b5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-2.5/commons-io-2.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehcache-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ehcache-1.1/ehcache-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="velocity-1.7-dep.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/velocity-1.7-dep/velocity-1.7-dep">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-chart-themes-5.6.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-chart-themes-5.6.0/jasperreports-chart-themes-5.6.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-pool-1.6/commons-pool-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-commons-annotations.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-commons-annotations/hibernate-commons-annotations">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-pool-1.3/commons-pool-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-ext.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-ext/batik-ext">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate3/hibernate3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-svg-dom.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-svg-dom/batik-svg-dom">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="olap4j-0.9.7.309-JS.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/olap4j-0.9.7.309-JS/olap4j-0.9.7.309-JS">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_saaj-api-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_saaj-api-1.3/js_saaj-api-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.5-javadoc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-2.5-javadoc/commons-io-2.5-javadoc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_wsdl4j-1.5.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_wsdl4j-1.5.1/js_wsdl4j-1.5.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mondrian-3.2.0-13661-JS.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mondrian-3.2.0-13661-JS/mondrian-3.2.0-13661-JS">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1/commons-logging-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hadoop-core-1.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hadoop-core-1.0.1/hadoop-core-1.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="iTextAsian.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/iTextAsian/iTextAsian">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.37-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.37-bin/mysql-connector-java-5.1.37-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-databind-2.1.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-databind-2.1.4/jackson-databind-2.1.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_axis-1.4patched.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_axis-1.4patched/js_axis-1.4patched">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bcel-5.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/bcel-5.2/bcel-5.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-css.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-css/batik-css">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="castor-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/castor-1.2/castor-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-annotations.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-annotations/hibernate-annotations">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="barcode4j-2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/barcode4j-2.1/barcode4j-2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-extensions-3.5.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-extensions-3.5.3/jasperreports-extensions-3.5.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/spring/spring">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="taglibs-standard-jstlel-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/taglibs-standard-jstlel-1.2.1/taglibs-standard-jstlel-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jta.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jta/jta">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cglib-2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/cglib-2.1/cglib-2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="taglibs-standard-spec-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/taglibs-standard-spec-1.2.1/taglibs-standard-spec-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.15.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.2.15/log4j-1.2.15">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="swingx-2007_10_07.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/swingx-2007_10_07/swingx-2007_10_07">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="barbecue-1.5-beta1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/barbecue-1.5-beta1/barbecue-1.5-beta1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ant-1.7.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ant-1.7.1/ant-1.7.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_commons-httpclient-3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_commons-httpclient-3.1/js_commons-httpclient-3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-3.7-20101029.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-3.7-20101029/poi-3.7-20101029">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_commons-codec-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_commons-codec-1.3/js_commons-codec-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-collections-3.2.1/commons-collections-3.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-awt-util.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-awt-util/batik-awt-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hive-jdbc-0.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hive-jdbc-0.8.1/hive-jdbc-0.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jfreechart-1.0.12.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jfreechart-1.0.12/jfreechart-1.0.12">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xbean.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xbean/xbean">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-transcoder.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-transcoder/batik-transcoder">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javacup.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javacup/javacup">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eigenbase-properties-1.1.0.10924.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/eigenbase-properties-1.1.0.10924/eigenbase-properties-1.1.0.10924">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ejb3-persistence.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ejb3-persistence/ejb3-persistence">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xml-apis-ext.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xml-apis-ext/xml-apis-ext">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-script.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-script/batik-script">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-svggen.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-svggen/batik-svggen">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="taglibs-standard-impl-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/taglibs-standard-impl-1.2.1/taglibs-standard-impl-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dom4j-1.6/dom4j-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaxen-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaxen-1.1.1/jaxen-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rhino-1.7R3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/rhino-1.7R3/rhino-1.7R3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-gvt.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-gvt/batik-gvt">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils-1.8.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-beanutils-1.8.2/commons-beanutils-1.8.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-digester-2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-digester-2.1/commons-digester-2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-htmlcomponent-5.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-htmlcomponent-5.0.1/jasperreports-htmlcomponent-5.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-math-1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-math-1.0/commons-math-1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jcommon-1.0.15.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jcommon-1.0.15/jcommon-1.0.15">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="primefaces-5.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/primefaces-5.3/primefaces-5.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-3.7-20101029.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-ooxml-3.7-20101029/poi-ooxml-3.7-20101029">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jpa.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jpa/jpa">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_mail-1.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_mail-1.4/js_mail-1.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-json.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-json/jasperreports-json">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-log4j12-1.5.8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-log4j12-1.5.8/slf4j-log4j12-1.5.8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="saaj-api-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/saaj-api-1.3/saaj-api-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rex-0.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/rex-0.8.1/rex-0.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="taglibs-standard-compat-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/taglibs-standard-compat-1.2.1/taglibs-standard-compat-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-jtidy-r938.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-jtidy-r938/jasperreports-jtidy-r938">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="serializer.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/serializer/serializer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_jaxrpc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_jaxrpc/js_jaxrpc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hive-exec-0.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hive-exec-0.8.1/hive-exec-0.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xalan.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xalan/xalan">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eigenbase-xom-1.3.0.11999.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/eigenbase-xom-1.3.0.11999/eigenbase-xom-1.3.0.11999">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/joda-time-2.1/joda-time-2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="asm-attrs.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/asm-attrs/asm-attrs">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hive-common-0.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hive-common-0.8.1/hive-common-0.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-vfs-1.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-vfs-1.0/commons-vfs-1.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="eigenbase-resgen-1.3.0.11873.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/eigenbase-resgen-1.3.0.11873/eigenbase-resgen-1.3.0.11873">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_jasperserver-common-ws-4.7.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_jasperserver-common-ws-4.7.1/js_jasperserver-common-ws-4.7.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cincom-jr-xmla.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/cincom-jr-xmla/cincom-jr-xmla">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="libfb303-0.7.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/libfb303-0.7.0/libfb303-0.7.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-util.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-util/batik-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rex-20080421.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/rex-20080421/rex-20080421">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js-mongodb-datasource-1.0.0a.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js-mongodb-datasource-1.0.0a/js-mongodb-datasource-1.0.0a">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mongo-java-driver-2.7.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mongo-java-driver-2.7.3/mongo-java-driver-2.7.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.faces-2.2.10.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.faces-2.2.10/javax.faces-2.2.10">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-5.6.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-5.6.0/jasperreports-5.6.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-dom.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-dom/batik-dom">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xml-apis.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xml-apis/xml-apis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jdt-compiler-3.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jdt-compiler-3.1.1/jdt-compiler-3.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sqleonardo-2009.03.rc1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/sqleonardo-2009.03.rc1/sqleonardo-2009.03.rc1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jtds-1.3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jtds-1.3.1/jtds-1.3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jxl-2.6.10.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jxl-2.6.10/jxl-2.6.10">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-parser.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-parser/batik-parser">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-dbcp-1.2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-dbcp-1.2.2/commons-dbcp-1.2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.5.8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.5.8/slf4j-api-1.5.8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="libthrift-0.9.0-snapshot.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/libthrift-0.9.0-snapshot/libthrift-0.9.0-snapshot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-schemas-3.7-20101029.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-ooxml-schemas-3.7-20101029/poi-ooxml-schemas-3.7-20101029">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="groovy-all-2.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/groovy-all-2.0.1/groovy-all-2.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-javaflow-20060411.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-javaflow-20060411/commons-javaflow-20060411">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-annotations-2.1.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jackson-annotations-2.1.4/jackson-annotations-2.1.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_commons-discovery-0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_commons-discovery-0.2/js_commons-discovery-0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api-2.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/servlet-api-2.4/servlet-api-2.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-fonts-5.6.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-fonts-5.6.0/jasperreports-fonts-5.6.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hsqldb-1.8.0-10.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hsqldb-1.8.0-10/hsqldb-1.8.0-10">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hive-metastore-0.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hive-metastore-0.8.1/hive-metastore-0.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-core-renderer.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-core-renderer/jasperreports-core-renderer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-htmlcomponent-4.7.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-htmlcomponent-4.7.1/jasperreports-htmlcomponent-4.7.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js_activation-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js_activation-1.1/js_activation-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="js-hive-datasource-1.0.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/js-hive-datasource-1.0.4/js-hive-datasource-1.0.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-anim.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-anim/batik-anim">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/antlr-2.7.6/antlr-2.7.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="batik-xml.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/batik-xml/batik-xml">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.3-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.3-sources/commons-fileupload-1.3-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="iText-2.1.7.js2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/iText-2.1.7.js2/iText-2.1.7.js2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hive-service-0.8.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hive-service-0.8.1/hive-service-0.8.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasperreports-functions-5.6.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasperreports-functions-5.6.0/jasperreports-functions-5.6.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="ROOT"/>
         <property name="java-output-path" value="/ROOT/build/classes"/>
     </wb-module>
